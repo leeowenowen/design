@@ -2,6 +2,7 @@ package com.owo.design;
 
 import com.owo.design.patterns.creational.abstract_factory.AbstractFactoryPatternDemo;
 import com.owo.design.patterns.creational.factory.FactoryPatternDemo;
+import com.owo.design.patterns.creational.singleton.SingletonPatternDemo;
 
 /**
  * Created by wangli on 7/8/16.
@@ -16,5 +17,7 @@ public class Main {
         FactoryPatternDemo.main();
         showTitle("Abstract Factory Pattern Demo");
         AbstractFactoryPatternDemo.main();
+        showTitle("Singleton Pattern Demo");
+        SingletonPatternDemo.main();
     }
 }
