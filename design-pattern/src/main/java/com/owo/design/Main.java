@@ -1,5 +1,6 @@
 package com.owo.design;
 
+import com.owo.design.patterns.behavioral.observer.ObserverPatternDemo;
 import com.owo.design.patterns.creational.abstract_factory.AbstractFactoryPatternDemo;
 import com.owo.design.patterns.creational.builder.BuilderPatternDemo;
 import com.owo.design.patterns.creational.factory.FactoryPatternDemo;
@@ -37,5 +38,8 @@ public class Main {
         BridgePatternDemo.main();
 
         //Behavioral
+
+        showTitle("Observer Pattern Demo");
+        ObserverPatternDemo.main();
     }
 }

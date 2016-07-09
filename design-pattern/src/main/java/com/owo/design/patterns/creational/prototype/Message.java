@@ -7,10 +7,11 @@ import java.util.Map;
  * Created by wangli on 16-7-9.
  */
 public class Message {
+    private String dbid;
     private Map<String, String> params = new HashMap<>();
 
     public Message() {
-
+        // init dbid from db;
     }
 
     public void pub(String k, String v) {
@@ -26,6 +27,7 @@ public class Message {
         for (Map.Entry<String, String> entry : params.entrySet()) {
             msg.params.put(entry.getKey(), entry.getValue());
         }
+        msg.dbid = dbid;
         return msg;
     }
 }

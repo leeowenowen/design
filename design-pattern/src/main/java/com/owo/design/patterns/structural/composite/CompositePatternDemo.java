@@ -1,6 +1,6 @@
 package com.owo.design.patterns.structural.composite;
 
-class CompositePatternDemo {
+public class CompositePatternDemo {
     public static void main() {
 
     }
