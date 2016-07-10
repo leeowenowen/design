@@ -1,6 +1,8 @@
 package com.owo.design;
 
 import com.owo.design.patterns.behavioral.chain_of_responsibility.ChainOfResponsibilityPatternDemo;
+import com.owo.design.patterns.behavioral.command.CommandPatternDemo;
+import com.owo.design.patterns.behavioral.mediator.MediatorPatternDemo;
 import com.owo.design.patterns.behavioral.observer.ObserverPatternDemo;
 import com.owo.design.patterns.behavioral.template.TemplatePatternDemo;
 import com.owo.design.patterns.creational.abstract_factory.AbstractFactoryPatternDemo;
@@ -56,5 +58,9 @@ public class Main {
         ObserverPatternDemo.main();
         showTitle("Template Pattern Demo");
         TemplatePatternDemo.main();
+        showTitle("Command Pattern Demo");
+        CommandPatternDemo.main();
+        showTitle("Mediator Pattern Demo");
+        MediatorPatternDemo.main();
     }
 }
