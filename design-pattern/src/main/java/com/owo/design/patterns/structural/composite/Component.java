@@ -6,4 +6,5 @@ package com.owo.design.patterns.structural.composite;
 public interface Component {
     void add(Component component);
     void remove(Component component);
+    void show();
 }

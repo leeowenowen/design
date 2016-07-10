@@ -6,6 +6,6 @@ package com.owo.design.patterns.structural.bridge;
 public class Car implements Vehicle {
     @Override
     public void run() {
-        System.out.println("Car.run");
+        System.out.println("NormalCar.run");
     }
 }

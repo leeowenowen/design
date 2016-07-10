@@ -1,6 +1,8 @@
 package com.owo.design;
 
+import com.owo.design.patterns.behavioral.chain_of_responsibility.ChainOfResponsibilityPatternDemo;
 import com.owo.design.patterns.behavioral.observer.ObserverPatternDemo;
+import com.owo.design.patterns.behavioral.template.TemplatePatternDemo;
 import com.owo.design.patterns.creational.abstract_factory.AbstractFactoryPatternDemo;
 import com.owo.design.patterns.creational.builder.BuilderPatternDemo;
 import com.owo.design.patterns.creational.factory.FactoryPatternDemo;
@@ -8,6 +10,9 @@ import com.owo.design.patterns.creational.prototype.PrototypePatternDemo;
 import com.owo.design.patterns.creational.singleton.SingletonPatternDemo;
 import com.owo.design.patterns.structural.adapter.AdapterPatternDemo;
 import com.owo.design.patterns.structural.bridge.BridgePatternDemo;
+import com.owo.design.patterns.structural.composite.CompositePatternDemo;
+import com.owo.design.patterns.structural.decorator.DecoratorPatternDemo;
+import com.owo.design.patterns.structural.facade.FacadePatternDemo;
 import sun.corba.BridgePermission;
 
 /**
@@ -36,10 +41,20 @@ public class Main {
         AdapterPatternDemo.main();
         showTitle("Bridge Pattern Demo");
         BridgePatternDemo.main();
+        showTitle("Composite Pattern Demo");
+        CompositePatternDemo.main();
+        showTitle("Facade Pattern Demo");
+        FacadePatternDemo.main();
+        showTitle("Decorator Pattern Demo");
+        DecoratorPatternDemo.main();
+
 
         //Behavioral
-
+        showTitle("Chain of Responsibility Pattern Demo");
+        ChainOfResponsibilityPatternDemo.main();
         showTitle("Observer Pattern Demo");
         ObserverPatternDemo.main();
+        showTitle("Template Pattern Demo");
+        TemplatePatternDemo.main();
     }
 }

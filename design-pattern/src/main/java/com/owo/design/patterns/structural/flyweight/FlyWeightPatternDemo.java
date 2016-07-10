@@ -1,6 +1,6 @@
 package com.owo.design.patterns.structural.flyweight;
 
-class FlyweightPatternDemo {
+class FlyWeightPatternDemo {
     public static void main() {
 
     }

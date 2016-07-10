@@ -1,7 +1,8 @@
 package com.owo.design.patterns.behavioral.template;
 
-class TemplatePatternDemo {
+public class TemplatePatternDemo {
     public static void main() {
-
+        UnitTest ut = new StringUnitTest();
+        ut.test();
     }
 }
