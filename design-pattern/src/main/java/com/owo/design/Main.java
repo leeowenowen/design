@@ -3,6 +3,7 @@ package com.owo.design;
 import com.owo.design.patterns.behavioral.chain_of_responsibility.ChainOfResponsibilityPatternDemo;
 import com.owo.design.patterns.behavioral.command.CommandPatternDemo;
 import com.owo.design.patterns.behavioral.mediator.MediatorPatternDemo;
+import com.owo.design.patterns.behavioral.memento.MementoPatternDemo;
 import com.owo.design.patterns.behavioral.observer.ObserverPatternDemo;
 import com.owo.design.patterns.behavioral.template.TemplatePatternDemo;
 import com.owo.design.patterns.creational.abstract_factory.AbstractFactoryPatternDemo;
@@ -15,7 +16,6 @@ import com.owo.design.patterns.structural.bridge.BridgePatternDemo;
 import com.owo.design.patterns.structural.composite.CompositePatternDemo;
 import com.owo.design.patterns.structural.decorator.DecoratorPatternDemo;
 import com.owo.design.patterns.structural.facade.FacadePatternDemo;
-import sun.corba.BridgePermission;
 
 /**
  * Created by wangli on 7/8/16.
@@ -62,5 +62,7 @@ public class Main {
         CommandPatternDemo.main();
         showTitle("Mediator Pattern Demo");
         MediatorPatternDemo.main();
+        showTitle("Memento Pattern Demo");
+        MementoPatternDemo.main();
     }
 }
